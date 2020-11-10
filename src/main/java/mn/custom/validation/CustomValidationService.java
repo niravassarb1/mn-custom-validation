@@ -6,8 +6,8 @@ import javax.inject.Singleton;
 @Singleton
 public class CustomValidationService {
 
-    public String acceptCityName(String cityName) {
-        return "";
+    public String acceptCity(@MyCities String city) {
+        return "City was accepted: " + city;
     }
 
     public String acceptPassword(@MyPassword String password) {

@@ -13,9 +13,9 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = { })
-public @interface MyPassword {
+public @interface MyCities {
 
-    String message() default "invalid password ({validatedValue})";
+    String message() default "invalid city ({validatedValue})";
 
     /**
      * Defines several constraints on the same element.
@@ -24,6 +24,6 @@ public @interface MyPassword {
     @Retention(RUNTIME)
     @Documented
     @interface List {
-        MyPassword[] value(); // <3>
+        MyCities[] value(); // <3>
     }
 }

@@ -1,3 +1,8 @@
 micronaut:
   application:
     name: mnCustomValidation
+custom-validation:
+  cities:
+    - 'Pittsburgh'
+    - 'Dallas'
+    - 'Houston'
