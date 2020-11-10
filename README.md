@@ -1,4 +1,4 @@
-## Feature http-client documentation
+## Summary
 
-- [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+This has an example of how to create a custom annotation.
 
